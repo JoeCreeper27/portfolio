@@ -3,9 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   color: #20303c;
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-family: "Caveat", cursive;
-  font-family: "Noto Sans TC", sans-serif;
   font-family: "Quicksand", sans-serif;
   transition: all 0.5s ease-in;
 }
@@ -31,11 +28,12 @@ div.sl {
   width: 90%;
   background-color: teal;
 }
-div.slv {
+li.slv {
   display: flex;
   height: 20px;
   width: 1px;
   background-color: darkslategray;
+  list-style: none;
 }
 
 header {
