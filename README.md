@@ -120,4 +120,4 @@ POS integrations, and async infrastructure over 3 years.
 [![Medium](https://img.shields.io/badge/Medium-000000?style=flat&logo=medium&logoColor=white)](https://medium.com/@joe6061127)
 [![Portfolio](https://img.shields.io/badge/Portfolio-20303c?style=flat&logo=githubpages&logoColor=white)](https://joecreeper27.github.io/portfolio/index.html)
 
-📞 0963-900-396 · ✉️ joe60611@hotmail.com
+ ✉️ joe60611@hotmail.com
