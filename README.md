@@ -68,6 +68,7 @@ POS integrations, and async infrastructure over 3 years.
 - Implemented **2FA** login flow (time-based one-time password)
 - Designed an **OAuth 2.0** authentication architecture; built a full **JWT token API** covering token generation, refresh, validation, and a JWKS endpoint
 - Set up **Grafana** dashboards for service-level monitoring and metrics visualisation
+- Led **ISO compliance hardening**: log masking, sensitive-data removal, and migration to stronger encryption algorithms; redesigned **device authentication architecture** using asymmetric key-pair binding — devices register a public key, obtain JWT by signing payloads with the corresponding private key; key rotation and platform-change flows are coordinated via IoT Core push notifications and a pending-action mechanism, integrated with OTA update and remote config delivery flows
 
 ### 京奇能源股份有限公司 `2021 –`
 光電設計專員
