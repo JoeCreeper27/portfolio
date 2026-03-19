@@ -64,6 +64,11 @@ POS integrations, and async infrastructure over 3 years.
 - Designed and shipped a **cart backend service** modelled on a Neo4j graph DB (MongoDB, MSSQL, Redis)
 - Integrated **Infraysis POS** service end-to-end
 - Developed **broadcast** and **schedule** services for async infrastructure
+- Built a **short URL redirect service** with redirect-event logging, dynamic third-party API integration for context-aware routing (condition-based dispatch to external endpoints), and static rule-based redirect configuration
+- Implemented **2FA** login flow (time-based one-time password)
+- Designed an **OAuth 2.0** authentication architecture; built a full **JWT token API** covering token generation, refresh, validation, and a JWKS endpoint
+- Set up **Grafana** dashboards for service-level monitoring and metrics visualisation
+- Led **ISO compliance hardening**: log masking, sensitive-data removal, and migration to stronger encryption algorithms; redesigned **device authentication architecture** using asymmetric key-pair binding — devices register a public key, obtain JWT by signing payloads with the corresponding private key; key rotation and platform-change flows are coordinated via IoT Core push notifications and a pending-action mechanism, integrated with OTA update and remote config delivery flows
 
 ### 京奇能源股份有限公司 `2021 –`
 光電設計專員
