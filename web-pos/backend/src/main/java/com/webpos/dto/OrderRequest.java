@@ -44,4 +44,13 @@ public class OrderRequest {
 
         private String note;
     }
+
+    @Data
+    @NoArgsConstructor
+    @AllArgsConstructor
+    public static class ItemsWrapper {
+        @NotEmpty
+        @Valid
+        private List<OrderItemRequest> items;
+    }
 }
